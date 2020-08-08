@@ -15,6 +15,7 @@ payloads/backup.js
 payloads/disableupdates.js
 payloads/dumper.js
 payloads/enableupdates.js
+payloads/fakeusb.js
 payloads/ftp.js
 payloads/historyblocker.js
 payloads/kerneldumper.js
