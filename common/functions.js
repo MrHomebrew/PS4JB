@@ -1,7 +1,7 @@
 function jb_finished()
 {
     if(main_ret == 179 || main_ret == 0){
-		setCookie("JB","DONE","EXIT WITH PS BUTTON",30);
+		setCookie("JB","DONE",30);
 		setTimeout(function(){document.getElementById("progress").innerHTML="MrHomebrew PS4 Jailbreak 6.72 Exploit Complete ✔"; }, 500);
     } else{
         	setTimeout(function(){document.getElementById("progress").innerHTML="Jailbreak failed! Reboot your PS4 and try again!!"; }, 500);
@@ -10,7 +10,7 @@ function jb_finished()
 
 function payload_finished()
 {
-	setCookie("JB","DONE","EXIT WITH PS BUTTON",30);
+	setCookie("JB","DONE",30);
 	setTimeout(function(){document.getElementById("progress").innerHTML="Load Successful!!"; }, 3000);
 	setTimeout(function(){document.getElementById("progress").innerHTML="MrHomebrew PS4 Jailbreak 6.72 Payload Loaded Succesfully ✔"; }, 7000);
 }
@@ -173,7 +173,7 @@ function load_netcat()
 		document.write('<script>document.getElementById("progress").innerHTML="Loading! Please Wait!!";</scr'+'ipt>');
 	}
 	setCookie("JB","START",30);
-	setTimeout(function(){document.write(PAYLOAD('mira')+PAYLOAD('c-code')+'<script>setCookie("JB","DONE","EXIT WITH PS BUTTON",30);document.getElementById("progress").innerHTML="Awaiting Payload!! Send Payload To Port 9021";</scr'+'ipt>');}, 500);
+	setTimeout(function(){document.write(PAYLOAD('mira')+PAYLOAD('c-code')+'<script>setCookie("JB","DONE",30);document.getElementById("progress").innerHTML="Awaiting Payload!! Send Payload To Port 9021";</scr'+'ipt>');}, 500);
 }
 
 function load_payload(payload)
