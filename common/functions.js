@@ -44,7 +44,7 @@ function exploit(){
 	if(document.getElementById('table') == null){
 		document.write('<style>'+
 						'.button {'+
-						'  background-color: #003263;'+
+						'  background-color: #2d1757;'+
 						'  border-radius: 5px;'+
 						'  color: white;'+
 						'  padding: .5em;'+
@@ -112,7 +112,7 @@ function load_netcat()
 	if(document.getElementById('table') == null){
 		document.write('<style>'+
 						'.button {'+
-						'  background-color: #003263;'+
+						'  background-color: #2d1757;'+
 						'  border-radius: 5px;'+
 						'  color: white;'+
 						'  padding: .5em;'+
@@ -181,7 +181,7 @@ function load_payload(payload)
     if(document.getElementById('table') == null){
 		document.write('<style>'+
 						'.button {'+
-						'  background-color: #003263;'+
+						'  background-color: #2d1757;'+
 						'  border-radius: 5px;'+
 						'  color: white;'+
 						'  padding: .5em;'+
