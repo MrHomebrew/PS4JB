@@ -1,7 +1,7 @@
 function jb_finished()
 {
     if(main_ret == 179 || main_ret == 0){
-		setCookie("JB","DONE",30);
+		setCookie("JB","DONE","EXIT WITH PS BUTTON",30);
 		setTimeout(function(){document.getElementById("progress").innerHTML="MrHomebrew PS4 Jailbreak 6.72 Exploit Complete ✔"; }, 500);
     } else{
         	setTimeout(function(){document.getElementById("progress").innerHTML="Jailbreak failed! Reboot your PS4 and try again!!"; }, 500);
@@ -10,7 +10,7 @@ function jb_finished()
 
 function payload_finished()
 {
-	setCookie("JB","DONE",30);
+	setCookie("JB","DONE","EXIT WITH PS BUTTON",30);
 	setTimeout(function(){document.getElementById("progress").innerHTML="Load Successful!!"; }, 3000);
 	setTimeout(function(){document.getElementById("progress").innerHTML="MrHomebrew PS4 Jailbreak 6.72 Payload Loaded Succesfully ✔"; }, 7000);
 }
