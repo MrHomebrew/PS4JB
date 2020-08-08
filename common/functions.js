@@ -173,7 +173,7 @@ function load_netcat()
 		document.write('<script>document.getElementById("progress").innerHTML="Loading! Please Wait!!";</scr'+'ipt>');
 	}
 	setCookie("JB","START",30);
-	setTimeout(function(){document.write(PAYLOAD('mira')+PAYLOAD('c-code')+'<script>setCookie("JB","DONE",30);document.getElementById("progress").innerHTML="Awaiting Payload!! Send Payload To Port 9021";</scr'+'ipt>');}, 500);
+	setTimeout(function(){document.write(PAYLOAD('mira')+PAYLOAD('c-code')+'<script>setCookie("JB","DONE","EXIT WITH PS BUTTON",30);document.getElementById("progress").innerHTML="Awaiting Payload!! Send Payload To Port 9021";</scr'+'ipt>');}, 500);
 }
 
 function load_payload(payload)
