@@ -94,6 +94,9 @@ function exploit(){
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'todex\'); return false" style="width:43%">To-DEX</a>&nbsp;'+
 						'<a href="#" class="button" onclick="load_payload(\'webrte\'); return false" style="width:43%">WebRTE</a></td>'+
 						'</tr><tr><td><br/></td></tr>'+
+			       			'<tr>'+
+						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'fakeusb\'); return false" style="width:90%">FakeUSB</a></td>'+
+						'</tr>'+
 						'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'linuxloader\'); return false" style="width:90%">Linux Loader</a></td>'+
 						'</tr>'+
@@ -159,6 +162,9 @@ function load_netcat()
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'todex\'); return false" style="width:43%">To-DEX</a>&nbsp;'+
 						'<a href="#" class="button" onclick="load_payload(\'webrte\'); return false" style="width:43%">WebRTE</a></td>'+
 						'</tr><tr><td><br/></td></tr>'+
+			              		'<tr>'+
+						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'fakeusb\'); return false" style="width:90%">FakeUSB</a></td>'+
+						'</tr>'+
 						'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'linuxloader\'); return false" style="width:90%">Linux Loader</a></td>'+
 						'</tr>'+
@@ -225,6 +231,9 @@ function load_payload(payload)
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'todex\'); return false" style="width:43%">To-DEX</a>&nbsp;'+
 						'<a href="#" class="button" onclick="load_payload(\'webrte\'); return false" style="width:43%">WebRTE</a></td>'+
 						'</tr><tr><td><br/></td></tr>'+
+			              		'<tr>'+
+						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'fakeusb\'); return false" style="width:90%">FakeUSB</a></td>'+
+						'</tr>'+
 						'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'linuxloader\'); return false" style="width:90%">Linux Loader</a></td>'+
 						'</tr>'+
