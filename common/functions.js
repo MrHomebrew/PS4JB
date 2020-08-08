@@ -96,7 +96,7 @@ function exploit(){
 						'</tr><tr><td><br/></td></tr>'+
 			       			'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'fakeusb\'); return false" style="width:90%">FakeUSB</a></td>'+
-						'</tr>'+
+						'</tr><tr><td><br/></td></tr>'+
 						'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'linuxloader\'); return false" style="width:90%">Linux Loader</a></td>'+
 						'</tr>'+
@@ -164,7 +164,7 @@ function load_netcat()
 						'</tr><tr><td><br/></td></tr>'+
 			              		'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'fakeusb\'); return false" style="width:90%">FakeUSB</a></td>'+
-						'</tr>'+
+						'</tr><tr><td><br/></td></tr>'+
 						'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'linuxloader\'); return false" style="width:90%">Linux Loader</a></td>'+
 						'</tr>'+
@@ -233,7 +233,7 @@ function load_payload(payload)
 						'</tr><tr><td><br/></td></tr>'+
 			              		'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'fakeusb\'); return false" style="width:90%">FakeUSB</a></td>'+
-						'</tr>'+
+						'</tr><tr><td><br/></td></tr>'+
 						'<tr>'+
 						'<td align="center" colspan="2"><a href="#" class="button" onclick="load_payload(\'linuxloader\'); return false" style="width:90%">Linux Loader</a></td>'+
 						'</tr>'+
